@@ -148,6 +148,50 @@
             }
         },
         {
+            "name": "Goerli",
+            "isDefault": false,
+            "chain": 5,
+            "infura": "rinkeby",
+            "rpcURL": "",
+            "etherscan": "https://goerli.etherscan.io",
+            "etherscanTXs" : "https://api-goerli.etherscan.io/api?module=account&action=txlist&address={address}&startblock=0&endblock=99999999&sort=desc&apikey={key}",
+            "blockTime": 15,
+            "nativeToken":
+            {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "decimals": 18,
+                "name": "Ether",
+                "symbol": "ETH"
+            },
+            "tokens": [
+                {
+                    "address": "0x8967BCF84170c91B0d24D4302C2376283b0B3a07",
+                    "decimals": 18,
+                    "name": "Ocean Token",
+                    "symbol": "OCEAN"
+                }, {
+                    "address": "0xd92e713d051c37ebb2561803a3b5fbabc4962431",
+                    "decimals": 6,
+                    "name": "Tether",
+                    "symbol": "USDT"
+                }, {
+                    "address": "0x01be23585060835e02b77ef475b0cc51aa1e0709",
+                    "decimals": 18,
+                    "name": "ChainLink Token",
+                    "symbol": "LINK"
+                }, {
+                    "address": "0x725d648E6ff2B8C44c96eFAEa29b305e5bb1526a",
+                    "decimals": 18,
+                    "name": "Decentraland",
+                    "symbol": "MANA"
+                }
+            ],
+            "gnosisContracts": {
+                "GnosisSafeProxyFactory": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+                "GnosisSafe": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552"
+            }
+        },
+        {
             "name": "Avalanche",
             "isDefault": false,
             "chain": 43114,
