@@ -151,7 +151,7 @@
             "name": "Goerli",
             "isDefault": false,
             "chain": 5,
-            "infura": "rinkeby",
+            "infura": "goerli",
             "rpcURL": "",
             "etherscan": "https://goerli.etherscan.io",
             "etherscanTXs" : "https://api-goerli.etherscan.io/api?module=account&action=txlist&address={address}&startblock=0&endblock=99999999&sort=desc&apikey={key}",
