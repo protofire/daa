@@ -21,6 +21,7 @@
         "80001": ""
     },
     "urls": {
+        "daaApiUrl": "https://be-stage.daa.finance/v2/",
         "gnosisApiUrl": "https://safe-client.safe.global/v1/chains/",
         "cmcMapUrl": "https://pro-api.coinmarketcap.com/v1/cryptocurrency/map",
         "cmcPriceUrl": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/quotes/latest",
